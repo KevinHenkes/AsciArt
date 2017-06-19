@@ -71,4 +71,348 @@ public class FirstTemplate {
 
 	INTERRO = new String[] { "### ", "  # ", " ## ", "    ", " #  " };
     }
+
+    public void convert(String text) {
+	int nbLine = 0;
+	String input = text.toUpperCase();
+	String[] inputSplit = input.split("");
+
+	for (int i = 0; i < inputSplit.length; i++) {
+	    if (inputSplit[i].equals("A") && nbLine == 0) {
+		System.out.print(A[0]);
+	    } else if (inputSplit[i].equals("A") && nbLine == 1) {
+		System.out.print(A[1]);
+	    } else if (inputSplit[i].equals("A") && nbLine == 2) {
+		System.out.print(A[2]);
+	    } else if (inputSplit[i].equals("A") && nbLine == 3) {
+		System.out.print(A[3]);
+	    } else if (inputSplit[i].equals("A") && nbLine == 4) {
+		System.out.print(A[4]);
+	    }
+
+	    else if (inputSplit[i].equals("B") && nbLine == 0) {
+		System.out.print(B[0]);
+	    } else if (inputSplit[i].equals("B") && nbLine == 1) {
+		System.out.print(B[1]);
+	    } else if (inputSplit[i].equals("B") && nbLine == 2) {
+		System.out.print(B[2]);
+	    } else if (inputSplit[i].equals("B") && nbLine == 3) {
+		System.out.print(B[3]);
+	    } else if (inputSplit[i].equals("B") && nbLine == 4) {
+		System.out.print(B[4]);
+	    }
+
+	    else if (inputSplit[i].equals("C") && nbLine == 0) {
+		System.out.print(C[0]);
+	    } else if (inputSplit[i].equals("C") && nbLine == 1) {
+		System.out.print(C[1]);
+	    } else if (inputSplit[i].equals("C") && nbLine == 2) {
+		System.out.print(C[2]);
+	    } else if (inputSplit[i].equals("C") && nbLine == 3) {
+		System.out.print(C[3]);
+	    } else if (inputSplit[i].equals("C") && nbLine == 4) {
+		System.out.print(C[4]);
+	    }
+
+	    else if (inputSplit[i].equals("D") && nbLine == 0) {
+		System.out.print(D[0]);
+	    } else if (inputSplit[i].equals("D") && nbLine == 1) {
+		System.out.print(D[1]);
+	    } else if (inputSplit[i].equals("D") && nbLine == 2) {
+		System.out.print(D[2]);
+	    } else if (inputSplit[i].equals("D") && nbLine == 3) {
+		System.out.print(D[3]);
+	    } else if (inputSplit[i].equals("D") && nbLine == 4) {
+		System.out.print(D[4]);
+	    }
+
+	    else if (inputSplit[i].equals("E") && nbLine == 0) {
+		System.out.print(E[0]);
+	    } else if (inputSplit[i].equals("E") && nbLine == 1) {
+		System.out.print(E[1]);
+	    } else if (inputSplit[i].equals("E") && nbLine == 2) {
+		System.out.print(E[2]);
+	    } else if (inputSplit[i].equals("E") && nbLine == 3) {
+		System.out.print(E[3]);
+	    } else if (inputSplit[i].equals("E") && nbLine == 4) {
+		System.out.print(E[4]);
+	    }
+
+	    else if (inputSplit[i].equals("F") && nbLine == 0) {
+		System.out.print(F[0]);
+	    } else if (inputSplit[i].equals("F") && nbLine == 1) {
+		System.out.print(F[1]);
+	    } else if (inputSplit[i].equals("F") && nbLine == 2) {
+		System.out.print(F[2]);
+	    } else if (inputSplit[i].equals("F") && nbLine == 3) {
+		System.out.print(F[3]);
+	    } else if (inputSplit[i].equals("F") && nbLine == 4) {
+		System.out.print(F[4]);
+	    }
+
+	    else if (inputSplit[i].equals("G") && nbLine == 0) {
+		System.out.print(G[0]);
+	    } else if (inputSplit[i].equals("G") && nbLine == 1) {
+		System.out.print(G[1]);
+	    } else if (inputSplit[i].equals("G") && nbLine == 2) {
+		System.out.print(G[2]);
+	    } else if (inputSplit[i].equals("G") && nbLine == 3) {
+		System.out.print(G[3]);
+	    } else if (inputSplit[i].equals("G") && nbLine == 4) {
+		System.out.print(G[4]);
+	    }
+
+	    else if (inputSplit[i].equals("H") && nbLine == 0) {
+		System.out.print(H[0]);
+	    } else if (inputSplit[i].equals("H") && nbLine == 1) {
+		System.out.print(H[1]);
+	    } else if (inputSplit[i].equals("H") && nbLine == 2) {
+		System.out.print(H[2]);
+	    } else if (inputSplit[i].equals("H") && nbLine == 3) {
+		System.out.print(H[3]);
+	    } else if (inputSplit[i].equals("H") && nbLine == 4) {
+		System.out.print(H[4]);
+	    }
+
+	    else if (inputSplit[i].equals("I") && nbLine == 0) {
+		System.out.print(I[0]);
+	    } else if (inputSplit[i].equals("I") && nbLine == 1) {
+		System.out.print(I[1]);
+	    } else if (inputSplit[i].equals("I") && nbLine == 2) {
+		System.out.print(I[2]);
+	    } else if (inputSplit[i].equals("I") && nbLine == 3) {
+		System.out.print(I[3]);
+	    } else if (inputSplit[i].equals("I") && nbLine == 4) {
+		System.out.print(I[4]);
+	    }
+
+	    else if (inputSplit[i].equals("J") && nbLine == 0) {
+		System.out.print(J[0]);
+	    } else if (inputSplit[i].equals("J") && nbLine == 1) {
+		System.out.print(J[1]);
+	    } else if (inputSplit[i].equals("J") && nbLine == 2) {
+		System.out.print(J[2]);
+	    } else if (inputSplit[i].equals("J") && nbLine == 3) {
+		System.out.print(J[3]);
+	    } else if (inputSplit[i].equals("J") && nbLine == 4) {
+		System.out.print(J[4]);
+	    }
+
+	    else if (inputSplit[i].equals("K") && nbLine == 0) {
+		System.out.print(K[0]);
+	    } else if (inputSplit[i].equals("K") && nbLine == 1) {
+		System.out.print(K[1]);
+	    } else if (inputSplit[i].equals("K") && nbLine == 2) {
+		System.out.print(K[2]);
+	    } else if (inputSplit[i].equals("K") && nbLine == 3) {
+		System.out.print(K[3]);
+	    } else if (inputSplit[i].equals("K") && nbLine == 4) {
+		System.out.print(K[4]);
+	    }
+
+	    else if (inputSplit[i].equals("L") && nbLine == 0) {
+		System.out.print(L[0]);
+	    } else if (inputSplit[i].equals("L") && nbLine == 1) {
+		System.out.print(L[1]);
+	    } else if (inputSplit[i].equals("L") && nbLine == 2) {
+		System.out.print(L[2]);
+	    } else if (inputSplit[i].equals("L") && nbLine == 3) {
+		System.out.print(L[3]);
+	    } else if (inputSplit[i].equals("L") && nbLine == 4) {
+		System.out.print(L[4]);
+	    }
+
+	    else if (inputSplit[i].equals("M") && nbLine == 0) {
+		System.out.print(M[0]);
+	    } else if (inputSplit[i].equals("M") && nbLine == 1) {
+		System.out.print(M[1]);
+	    } else if (inputSplit[i].equals("M") && nbLine == 2) {
+		System.out.print(M[2]);
+	    } else if (inputSplit[i].equals("M") && nbLine == 3) {
+		System.out.print(M[3]);
+	    } else if (inputSplit[i].equals("M") && nbLine == 4) {
+		System.out.print(M[4]);
+	    }
+
+	    else if (inputSplit[i].equals("N") && nbLine == 0) {
+		System.out.print(N[0]);
+	    } else if (inputSplit[i].equals("N") && nbLine == 1) {
+		System.out.print(N[1]);
+	    } else if (inputSplit[i].equals("N") && nbLine == 2) {
+		System.out.print(N[2]);
+	    } else if (inputSplit[i].equals("N") && nbLine == 3) {
+		System.out.print(N[3]);
+	    } else if (inputSplit[i].equals("N") && nbLine == 4) {
+		System.out.print(N[4]);
+	    }
+
+	    else if (inputSplit[i].equals("O") && nbLine == 0) {
+		System.out.print(O[0]);
+	    } else if (inputSplit[i].equals("O") && nbLine == 1) {
+		System.out.print(O[1]);
+	    } else if (inputSplit[i].equals("O") && nbLine == 2) {
+		System.out.print(O[2]);
+	    } else if (inputSplit[i].equals("O") && nbLine == 3) {
+		System.out.print(O[3]);
+	    } else if (inputSplit[i].equals("O") && nbLine == 4) {
+		System.out.print(O[4]);
+	    }
+
+	    else if (inputSplit[i].equals("P") && nbLine == 0) {
+		System.out.print(P[0]);
+	    } else if (inputSplit[i].equals("P") && nbLine == 1) {
+		System.out.print(P[1]);
+	    } else if (inputSplit[i].equals("P") && nbLine == 2) {
+		System.out.print(P[2]);
+	    } else if (inputSplit[i].equals("P") && nbLine == 3) {
+		System.out.print(P[3]);
+	    } else if (inputSplit[i].equals("P") && nbLine == 4) {
+		System.out.print(P[4]);
+	    }
+
+	    else if (inputSplit[i].equals("Q") && nbLine == 0) {
+		System.out.print(Q[0]);
+	    } else if (inputSplit[i].equals("Q") && nbLine == 1) {
+		System.out.print(Q[1]);
+	    } else if (inputSplit[i].equals("Q") && nbLine == 2) {
+		System.out.print(Q[2]);
+	    } else if (inputSplit[i].equals("Q") && nbLine == 3) {
+		System.out.print(Q[3]);
+	    } else if (inputSplit[i].equals("Q") && nbLine == 4) {
+		System.out.print(Q[4]);
+	    }
+
+	    else if (inputSplit[i].equals("R") && nbLine == 0) {
+		System.out.print(R[0]);
+	    } else if (inputSplit[i].equals("R") && nbLine == 1) {
+		System.out.print(R[1]);
+	    } else if (inputSplit[i].equals("R") && nbLine == 2) {
+		System.out.print(R[2]);
+	    } else if (inputSplit[i].equals("R") && nbLine == 3) {
+		System.out.print(R[3]);
+	    } else if (inputSplit[i].equals("R") && nbLine == 4) {
+		System.out.print(R[4]);
+	    }
+
+	    else if (inputSplit[i].equals("S") && nbLine == 0) {
+		System.out.print(S[0]);
+	    } else if (inputSplit[i].equals("S") && nbLine == 1) {
+		System.out.print(S[1]);
+	    } else if (inputSplit[i].equals("S") && nbLine == 2) {
+		System.out.print(S[2]);
+	    } else if (inputSplit[i].equals("S") && nbLine == 3) {
+		System.out.print(S[3]);
+	    } else if (inputSplit[i].equals("S") && nbLine == 4) {
+		System.out.print(S[4]);
+	    }
+
+	    else if (inputSplit[i].equals("T") && nbLine == 0) {
+		System.out.print(T[0]);
+	    } else if (inputSplit[i].equals("T") && nbLine == 1) {
+		System.out.print(T[1]);
+	    } else if (inputSplit[i].equals("T") && nbLine == 2) {
+		System.out.print(T[2]);
+	    } else if (inputSplit[i].equals("T") && nbLine == 3) {
+		System.out.print(T[3]);
+	    } else if (inputSplit[i].equals("T") && nbLine == 4) {
+		System.out.print(T[4]);
+	    }
+
+	    else if (inputSplit[i].equals("U") && nbLine == 0) {
+		System.out.print(U[0]);
+	    } else if (inputSplit[i].equals("U") && nbLine == 1) {
+		System.out.print(U[1]);
+	    } else if (inputSplit[i].equals("U") && nbLine == 2) {
+		System.out.print(U[2]);
+	    } else if (inputSplit[i].equals("U") && nbLine == 3) {
+		System.out.print(U[3]);
+	    } else if (inputSplit[i].equals("U") && nbLine == 4) {
+		System.out.print(U[4]);
+	    }
+
+	    else if (inputSplit[i].equals("V") && nbLine == 0) {
+		System.out.print(V[0]);
+	    } else if (inputSplit[i].equals("V") && nbLine == 1) {
+		System.out.print(V[1]);
+	    } else if (inputSplit[i].equals("V") && nbLine == 2) {
+		System.out.print(V[2]);
+	    } else if (inputSplit[i].equals("V") && nbLine == 3) {
+		System.out.print(V[3]);
+	    } else if (inputSplit[i].equals("V") && nbLine == 4) {
+		System.out.print(V[4]);
+	    }
+
+	    else if (inputSplit[i].equals("W") && nbLine == 0) {
+		System.out.print(W[0]);
+	    } else if (inputSplit[i].equals("W") && nbLine == 1) {
+		System.out.print(W[1]);
+	    } else if (inputSplit[i].equals("W") && nbLine == 2) {
+		System.out.print(W[2]);
+	    } else if (inputSplit[i].equals("W") && nbLine == 3) {
+		System.out.print(W[3]);
+	    } else if (inputSplit[i].equals("W") && nbLine == 4) {
+		System.out.print(W[4]);
+	    }
+
+	    else if (inputSplit[i].equals("X") && nbLine == 0) {
+		System.out.print(X[0]);
+	    } else if (inputSplit[i].equals("X") && nbLine == 1) {
+		System.out.print(X[1]);
+	    } else if (inputSplit[i].equals("X") && nbLine == 2) {
+		System.out.print(X[2]);
+	    } else if (inputSplit[i].equals("X") && nbLine == 3) {
+		System.out.print(X[3]);
+	    } else if (inputSplit[i].equals("X") && nbLine == 4) {
+		System.out.print(X[4]);
+	    }
+
+	    else if (inputSplit[i].equals("Y") && nbLine == 0) {
+		System.out.print(Y[0]);
+	    } else if (inputSplit[i].equals("Y") && nbLine == 1) {
+		System.out.print(Y[1]);
+	    } else if (inputSplit[i].equals("Y") && nbLine == 2) {
+		System.out.print(Y[2]);
+	    } else if (inputSplit[i].equals("Y") && nbLine == 3) {
+		System.out.print(Y[3]);
+	    } else if (inputSplit[i].equals("Y") && nbLine == 4) {
+		System.out.print(Y[4]);
+	    }
+
+	    else if (inputSplit[i].equals("Z") && nbLine == 0) {
+		System.out.print(Z[0]);
+	    } else if (inputSplit[i].equals("Z") && nbLine == 1) {
+		System.out.print(Z[1]);
+	    } else if (inputSplit[i].equals("Z") && nbLine == 2) {
+		System.out.print(Z[2]);
+	    } else if (inputSplit[i].equals("Z") && nbLine == 3) {
+		System.out.print(Z[3]);
+	    } else if (inputSplit[i].equals("Z") && nbLine == 4) {
+		System.out.print(Z[4]);
+	    }
+
+	    else if (nbLine == 0) {
+		System.out.print(INTERRO[0]);
+	    } else if (nbLine == 1) {
+		System.out.print(INTERRO[1]);
+	    } else if (nbLine == 2) {
+		System.out.print(INTERRO[2]);
+	    } else if (nbLine == 3) {
+		System.out.print(INTERRO[3]);
+	    } else if (nbLine == 4) {
+		System.out.print(INTERRO[4]);
+	    }
+
+	    if (i == inputSplit.length - 1) {
+		System.out.print("\n");
+
+		nbLine++;
+
+		i = -1;
+	    }
+
+	    if (nbLine == 5) {
+		i = inputSplit.length;
+	    }
+	}
+    }
 }
