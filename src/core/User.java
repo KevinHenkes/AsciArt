@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import entities.letters.FirstTemplate;
+
 
 public class User {
 	private String nomUser = "";
@@ -25,7 +27,9 @@ public class User {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Saisissez votre nom :");
 		nomUser = sc.nextLine();
-		messageAccueil = "Bonjour";
+		messageAccueil = "Bonjour" + nomUser;
+		FirstTemplate firstTemplate = new FirstTemplate();
+		firstTemplate.convert(messageAccueil);
 		sc.close();
 		System.out.println("Vous pouvez transformer votre texte en Ascii Art  ! ");
 		
