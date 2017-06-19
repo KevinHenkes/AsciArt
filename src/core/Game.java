@@ -1,16 +1,12 @@
-package main;
-
 import java.util.Scanner;
 
-import entities.letters.FirstTemplate;
-import entities.letters.SecondTemplate;
 
-public class Main {
+public class Game {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println(" \n Choisissez le template 1 ou le template 2 :");
+		System.out.println("Choisissez le template 1 ou le template 2 :");
 		String choixTemp = sc.nextLine();
-		if (choixTemp.equals("1") || choixTemp.equals("2")){
+		if (choixTemp == "1" || choixTemp == "2"){
 			Scanner sc1 = new Scanner(System.in);
 			System.out.println("Vous avez saisi le template " +choixTemp);
 			System.out.println("Choisissez l'alphabet 1 ou l'alphabet 2 :");
@@ -19,18 +15,7 @@ public class Main {
 				Scanner sc2 = new Scanner(System.in);
 				System.out.println("Vous avez saisi l'alphabet " + choixAlpha);
 				System.out.println("Saisissez la chaîne de caractère que vous souhaitez :");
-				String Text = sc.nextLine();	
-				if (choixTemp.equals("1")) {
-				    FirstTemplate firstTemplate = new FirstTemplate();
-				    firstTemplate.convert(Text);
-				} else {
-				    SecondTemplate secondTemplate = new SecondTemplate();
-				    secondTemplate.convert(Text);
-				}
-				
-				sc.close();
-				sc1.close();
-				sc2.close();
+				String Text = sc.nextLine();				
 				
 			}else{
 				System.out.println("Vous n'avez pas saisi la bonne valeur");
